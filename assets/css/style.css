@@ -2,6 +2,28 @@ body{
     margin: 0;
 }
 
-header{
+#site_header{
     background-color:#add8e6;
+    height: 300px;
+    justify-content: center;
+
+}
+.container{ background-color:#daa520;
+    align-items: center;
+    height: 100px
+    display: fit-content;
+
+     
+
+}
+#site_main{
+    background-color: white;
+    height: 500px;
+
+
+}
+footer{
+    background-color: #23272a;
+    height: 50px
+
 }
