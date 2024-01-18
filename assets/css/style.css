@@ -23,57 +23,83 @@ header {
 
 }
 .logo{ 
-    border: 1px sienna dashed;
+    border: 1px rgb(0, 0, 0) dashed;
     padding: 2px;
     width: 20%;
 
 }
 
 .link{
-    border: 1px sienna dashed;
+    border: 1px rgb(0, 0, 0) dashed;
     padding: 2px;
     width: 60%
 
 }
 .login{ 
-    border: 1px sienna dashed;
+    border: 1px rgb(0, 0, 0) dashed;
     padding: 2px;
     width: 20%;
 }
 
 
 .containers{
+    justify-content: flex-start;
     background-color: orange;
     align-items: center;
+    height: auto;
 }
 .uno{ 
-    color: blue;
+    background-color: #00008b;
+    border: 1px #000000 solid;
+    padding: 10px;
+    height: 200px;
+
 }
 
 .due{
-    border: 1px sienna solid;
+    background-color: white;
+    border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
+    height: 200px;
 }
 .tre{
-    border: 1px sienna solid;
+    background-color: #d3d3d3;
+    border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
+    height: 200px;
 }
 .quattro{ 
-    border: 1px sienna solid;
+    background-color: white;
+    border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
+    height: 200px;
 }
 .cinque{ 
-    border: 1px sienna solid;
+    background-color: #d3d3d3;
+    border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
+    height: 300px;
 
 }
 .sei{
-    border: 1px sienna solid;
+    background-color: #23272a;
+    border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
+    height: 200px;
     
 }
 
 footer {
     background-color: #23272a;
     height: 50px;
+
+}
+.unouno{
+    background-color: #ee82ee;
+    height: 100px;
+    padding: auto;
+}
+
+.duedue{
+    background-color: #1e90ff;
 }
