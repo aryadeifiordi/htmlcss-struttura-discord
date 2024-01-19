@@ -1,6 +1,9 @@
+
 body {
+    background: grey;
     margin: 0;
 }
+
 
 header {
     background-color: #add8e6;
@@ -19,6 +22,7 @@ header {
     justify-content: space-between;
 
     width: 75%;
+    height: 40%;
 
 
 }
@@ -32,9 +36,13 @@ header {
 .link{
     border: 1px rgb(0, 0, 0) dashed;
     padding: 2px;
-    width: 60%
-
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
+
+
 .login{ 
     border: 1px rgb(0, 0, 0) dashed;
     padding: 2px;
@@ -48,31 +56,44 @@ header {
     align-items: center;
     height: auto;
 }
-.uno{ 
+.first-block{ 
     background-color: #00008b;
     border: 1px #000000 solid;
     padding: 10px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
-.due{
+.second-block{
     background-color: white;
     border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
     height: 200px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
 }
-.tre{
+.third-block{
     background-color: #d3d3d3;
     border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.quattro{ 
+.fourth-block{ 
     background-color: white;
     border: 1px rgb(0, 0, 0) solid;
     padding: 10px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cinque{ 
     background-color: #d3d3d3;
@@ -94,12 +115,21 @@ footer {
     height: 50px;
 
 }
-.unouno{
+.pink-block{
     background-color: #ee82ee;
-    height: 100px;
-    padding: auto;
+    height: 80%;
+    width: 60%;
+    
+
 }
 
-.duedue{
+.blue-block{
     background-color: #1e90ff;
+    height: 80%;
+    width: 50%;
+}
+.rose-block{
+    background-color: #ee82ee;
+    width: 30%;
+    height: 80%;
 }
