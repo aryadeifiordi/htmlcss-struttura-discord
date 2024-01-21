@@ -5,7 +5,7 @@ body {
 
 
 header {
-    background-color: #add8e6;
+    background-color: #1b62e8;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ header {
 }
 
 .container {
-    background-color: #daa520;
+    background-color: #1b62e8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-    border: 1px rgb(0, 0, 0) dashed;
+    border: 1px rgb(0, 0, 0) ;
     padding: 2px;
     width: 20%;
 
@@ -39,7 +39,7 @@ header {
 }
 
 .link {
-    border: 1px rgb(0, 0, 0) dashed;
+    border: 1px rgb(0, 0, 0);
     padding: 2px;
     width: 60%;
     display: flex;
@@ -49,13 +49,20 @@ header {
 
 
 .login {
-    border: 1px rgb(0, 0, 0) dashed;
+    border: 1px rgb(0, 0, 0);
     padding: 2px;
     width: 20%;
 }
 
+.button1{
+    border-radius: 30%;
+    display: flex;
+    align-self: center
+ 
+}
 
 .containers {
+    background-image: ;
     justify-content: flex-start;
     
     align-items: center;
